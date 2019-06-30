@@ -1,0 +1,39 @@
+logs
+project/project
+project/target
+target
+tmp
+*.tmp
+.history
+dist
+.idea
+*.iml
+*.eml
+.idea_modules
+.classpath
+.project
+*.sc
+.settings
+.cache
+.target
+**/bin
+**/*~
+.cache-main
+.cache-tests
+.DS_store
+\#*#
+# Generated sources from xsd files
+**/sbt-scalaxb
+
+# Overrides files containing secrets
+**/overrides.conf
+
+# SSL credentials
+**/security/*.der
+**/security/*.pem
+
+# Scoverage report, which is copied out of target directory for preservation across 'clean'
+**/scoverage-report
+
+
+**/*.jar
